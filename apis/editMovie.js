@@ -1,4 +1,5 @@
 import data from "../src/data.js";
+import loadHandler from '../src/handlers/loadHandler.js';
 
 const editMovie = async (movieId, updatedTitle, updatedSrc) => {
   try {
@@ -11,6 +12,7 @@ const editMovie = async (movieId, updatedTitle, updatedSrc) => {
     });
 
     if (response.ok) {
+      // loadHandler();
     } else {
       console.error('Failed to edit movie:', response.statusText);
     }

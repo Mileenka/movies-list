@@ -21,7 +21,8 @@ const createMovie = (movieData) => {
     const changeMovie = document.createElement('button');
     changeMovie.classList.add('change-btn');
     changeMovie.innerText = 'Change';
-    changeMovie.addEventListener('click', () => {
+    changeMovie.addEventListener('click', (e) => {
+      e.preventDefault();
       const title = dom.movieTitle.value;
     const src = dom.movieSrc.value;
       editMovie(movieData.id, title, src);
