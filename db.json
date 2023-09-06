@@ -1,19 +1,14 @@
 {
   "movies": [
     {
-      "title": "In time",
-      "src": "./assets/in-time.jpeg",
-      "id": 2
+      "title": "Holiday",
+      "src": "./assets/holiday.jpg",
+      "id": 1
     },
     {
       "title": "In Time",
-      "src": "./assets/in-time.jpeg",
-      "id": 3
-    },
-    {
-      "title": "In Time ",
-      "src": "./assets/in-time.jpeg",
-      "id": 4
+      "src": "./assets/holiday.jpg",
+      "id": 2
     }
   ]
 }

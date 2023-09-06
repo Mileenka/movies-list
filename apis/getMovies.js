@@ -7,7 +7,6 @@ const fetchMovieData = async () => {
             throw new Error(`Failed to fetch movies with status: ${response.status}`);
         }
         const movieData = await response.json();
-        console.log(movieData)
         return movieData;
     } catch (err) {
         console.error('Error fetching movies:', err);

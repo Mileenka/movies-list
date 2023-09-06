@@ -1,5 +1,4 @@
 import data from "../src/data.js";
-import loadHandler from "../src/handlers/loadHandler.js";
 
 export const deleteMovie = async (movieId) => {
     try {
@@ -7,12 +6,11 @@ export const deleteMovie = async (movieId) => {
             method: 'DELETE',
         });
 
-        if (response.ok) {
-            loadHandler();
-        } else {
-            console.error('Failed to delete movie:', response.statusText);
-        }
+       if(!response.ok) {
+        throw new Error('Failed');
+       }
     } catch (error) {
         console.error('Error:', error);
+        return null;
     }
 }
