@@ -1,7 +1,7 @@
 {
   "movies": [
     { "id": 1, "title": "joker", "src": "./assets/joker.jpg" },
-    { "id": 2, "title": "Brave Heart", "src": "./assets/braveHeart.jpeg" },
+    { "id": 2, "title": "Brave Heart", "src": "./assets/braveheart.jpeg" },
     { "id": 3, "title": "Cat Women", "src": "./assets/catwomen.webp" },
     { "id": 4, "title": "In Time", "src": "./assets/in-time.jpeg" }
   ]
