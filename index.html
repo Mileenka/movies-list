@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./styles/style.css" />
-        <title>Movies List</title>
-    </head>
-    <body>
-        <script type="module" src="./src/init.js"></script>
-    </body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Movies List</title>
+  </head>
+  <body>
+    <div class="bg"></div>
+    <div class="title">Movie list</div>
+    <div class="container">
+      <input id="movie-title" type="text" placeholder="Movie name...">
+      <input id="movie-src" type="text" placeholder="Movie url...">
+      <button id="add-btn" class="add-btn">Add movie</button>
+    </div>
+    <div id="movie-container" class="movie-container"></div>
+    <script type="module" src="./src/init.js"></script>
+  </body>
 </html>
